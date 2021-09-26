@@ -10,3 +10,9 @@ https://www.youtube.com/watch?v=YfV-vYT3yfQ
 ## MCP4802
 https://github.com/SteveGdvs/MCP48xx/blob/master/examples/MCP48x2/MCP48x2.ino
 https://www.youtube.com/watch?v=bj57xuQS7L8
+
+## R2R Ladders
+https://www.electronics-tutorials.ws/combination/r-2r-dac.html
+
+## Binary weighted
+https://www.electronics-tutorials.ws/combination/digital-to-analogue-converter.html
