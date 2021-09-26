@@ -1,0 +1,5 @@
+* Netlist created with www.circuit-diagram.org
+* 
+R1 1 0 4700
+C2 2 0 0.00047
+'Arduino Uno #14:2 #7:0 #19:1
