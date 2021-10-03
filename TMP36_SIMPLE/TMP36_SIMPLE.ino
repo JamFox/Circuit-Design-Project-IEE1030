@@ -13,10 +13,10 @@ void loop() {
   float temperature = (voltage - 500) / 10; 
   // Print reading, voltage and temperature in the Serial Monitor:
   Serial.println();
-  Serial.println(reading);
-  Serial.print(voltage);
+  Serial.println(reading);   // print reading
+  Serial.print(voltage);     // print voltage
   Serial.println(" mV");
-  Serial.print(temperature);
+  Serial.print(temperature); // print temperature
   Serial.print(" \xC2\xB0"); // degree symbol
   Serial.println("C");
   
