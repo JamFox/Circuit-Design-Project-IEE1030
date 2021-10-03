@@ -7,15 +7,13 @@
 // Using D9 PWM pin here
 int pulsePin = 9;
 
-void setup()
-{
+void setup(){
   Serial.begin(9600);
   // Set our PWM pin as output
   pinMode(pulsePin, OUTPUT);
 }
 
-void loop()
-{
+void loop(){
   // Calculate value between 0 and RESOLUTION for a sine wave
   for (int i = 0; i < 360; i++) {
   analogWrite(pulsePin,((sin(i * DEG_TO_RAD) + 1) * RESOLUTION) / 2);
