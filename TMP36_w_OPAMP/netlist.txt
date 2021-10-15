@@ -1,0 +1,14 @@
+* Netlist created with www.circuit-diagram.org
+* 
+V1 0 0
+V2 1 0
+V3 2 5
+'opamp out:3 inv:4 vsn:1 vsp:2 ninv:5 showSupply=True
+R4 0 4 5100
+R5 4 3 15000
+V6 6 5
+V7 7 0
+'microcontroller #2:5 #0:6 #1:7 sz=4 p0=Vin p1=DATA p2=GND p3=TMP36 p4= p5= p6= p7= p8= p9= p10= p11= p12= p13= p14= p15= p16= p17= p18= p19= p20= p21= p22= p23= p24= p25= p26= p27=
+V8 8 5
+V9 9 0
+'microcontroller #11:3 #6:9 #7:8 header=Arduino Nano v3 sz=30 p0=D1 TX p1=Vin p2=D0 RX p3=GND p4=RST p5=RST p6=GND p7=5V p8=D2 p9=A7 p10=D3 p11=A6 p12=D4 p13=A5 p14=D5 p15=A4 p16=D6 p17=A3 p18=D7 p19=A2 p20=D8 p21=A1 p22=D9 p23=A0 p24=D10 p25=AREF p26=D11 p27=3V3 p28=D12 p29=D13 p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=

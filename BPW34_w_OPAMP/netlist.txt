@@ -1,0 +1,12 @@
+* Netlist created with www.circuit-diagram.org
+* 
+V1 0 0
+V2 1 0
+'photodiode an:0 cat:2 t=Photo
+V3 3 0
+V4 4 5
+'opamp inv:2 ninv:1 out:5 vsp:3 vsn:4 showSupply=True
+R5 2 5 100000
+V6 6 5
+V7 7 0
+'microcontroller #11:5 #6:7 #7:6 header=Arduino Nano v3 sz=30 p0=D1 TX p1=Vin p2=D0 RX p3=GND p4=RST p5=RST p6=GND p7=5V p8=D2 p9=A7 p10=D3 p11=A6 p12=D4 p13=A5 p14=D5 p15=A4 p16=D6 p17=A3 p18=D7 p19=A2 p20=D8 p21=A1 p22=D9 p23=A0 p24=D10 p25=AREF p26=D11 p27=3V3 p28=D12 p29=D13 p30= p31= p32= p33= p34= p35= p36= p37= p38= p39=
